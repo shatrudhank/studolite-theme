@@ -27,9 +27,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "bootstrap/dist/css/bootstrap.min.css",
+              "font-awesome/css/font-awesome.min.css",
+              "src/styles.css",
+              "src/css/studolite-theme.css"
             ],
-            "scripts": []
+            "scripts": [
+              "jquery/dist/jquery.min.js",
+              "bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
